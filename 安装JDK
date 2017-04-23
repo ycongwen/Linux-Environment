@@ -1,0 +1,6 @@
+安装jdk，将压缩包，使用tar 命令进行解压，并且配置相应的环境变量
+# nano /etc/profile，在文件的末尾处加上
+export JAVA_HOME=/usr/lib/jvm/java1.8.0_05
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
+export PATH={JAVA_HOME}/bin:$PATH

@@ -1,0 +1,11 @@
+mysql采用的是ubuntu的在线安装
+1. sudo apt-get install mysql-server
+
+2. apt-get isntall mysql-client
+
+3.  sudo apt-get install libmysqlclient-dev
+使用以下的命令，既可以在线安装，但是如果网络不通的情况加，需要配置网卡，和最好的连接ip地址，可以google
+这个过程中需要输入密码，密码为root用户密码，切记，和linux root用户不一样，请强记。
+连接之后需要做两步操作，这样mysql才能被远程连接。
+第一授权你要访问的ip,给IP权限访问。
+第二。开启端口号为3306的防火墙，测试链接

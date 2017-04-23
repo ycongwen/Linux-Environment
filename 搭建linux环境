@@ -1,0 +1,4 @@
+1，下载Ubuntu16.04版本的linux64镜像文件，安装VM工作站虚拟机设备，此过程需要在想更新安装一些东西，暂时没有去研究是不是版本的问题。设置用户名和和密码
+2，安装vim编辑器，这个很重要，安装的时候可能会说明没有安装包，这个时候，可以修改linux的配置的文件，或者通过左面软件进行安装（不推荐），更多的的考验你的命令
+3，实现windows的文件和linux下的文件进行共享，windows设置一个共享目录，把前期准备的jdk，tomcat，redis等等，linux版本文件放入，然后再虚拟机中挂载硬盘，
+/ mnt / cdrom中会出现你放入的软件包，使用### cp /mnt/hgfs/freeDom/tomcat.redis.jdk.mysql / ycongwen / soft文件夹，然后解压

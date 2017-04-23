@@ -1,0 +1,2 @@
+安装tomcat，使用tomcat服务器，直接解压到目录下
+./startup.sh,开启服务，尝试外网链接
